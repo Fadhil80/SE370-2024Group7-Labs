@@ -8,7 +8,7 @@ import java.awt.Dimension;
 import javax.imageio.ImageIO;
 import java.io.File;
 
-public class Lab4 extends JPanel {
+public class Lab4 extends JPanel {                                                                  // I believe we must change the main class name into PockerCards instead of Lab4!
     // Arrays for card ranks and suits with the same lettering as the cards in the file we found
     private static final String[] RANKS = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
     private static final String[] SUITS = {"S", "H", "D", "C"};  // S: Spades, H: Hearts, D: Diamonds, C: Clubs
